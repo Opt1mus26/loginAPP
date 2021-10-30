@@ -14,6 +14,10 @@
 		EF865C0627285D9300FDE22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF865C0527285D9300FDE22B /* Assets.xcassets */; };
 		EF865C0927285D9300FDE22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF865C0727285D9300FDE22B /* LaunchScreen.storyboard */; };
 		EF865C112728789F00FDE22B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF865C102728789F00FDE22B /* WelcomeViewController.swift */; };
+		EF869E40272D713600203052 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF869E3F272D713600203052 /* PersonViewController.swift */; };
+		EF869E42272D715A00203052 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF869E41272D715A00203052 /* AboutMeViewController.swift */; };
+		EF869E44272D71CF00203052 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF869E43272D71CF00203052 /* User.swift */; };
+		EF869E46272D7E7300203052 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF869E45272D7E7300203052 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		EF865C0827285D9300FDE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF865C0A27285D9300FDE22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF865C102728789F00FDE22B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EF869E3F272D713600203052 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersonViewController.swift; path = loginAPP/ViewControllers/PersonViewController.swift; sourceTree = SOURCE_ROOT; };
+		EF869E41272D715A00203052 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		EF869E43272D71CF00203052 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EF869E45272D7E7300203052 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,52 @@
 		EF865BFB27285D9200FDE22B /* loginAPP */ = {
 			isa = PBXGroup;
 			children = (
-				EF865BFC27285D9200FDE22B /* AppDelegate.swift */,
-				EF865BFE27285D9200FDE22B /* SceneDelegate.swift */,
-				EF865C0027285D9200FDE22B /* ViewController.swift */,
-				EF865C102728789F00FDE22B /* WelcomeViewController.swift */,
-				EF865C0227285D9200FDE22B /* Main.storyboard */,
-				EF865C0527285D9300FDE22B /* Assets.xcassets */,
-				EF865C0727285D9300FDE22B /* LaunchScreen.storyboard */,
-				EF865C0A27285D9300FDE22B /* Info.plist */,
+				EF869E3D272D6EFB00203052 /* ViewControllers */,
+				EF869E3B272D6EC100203052 /* Storyboards */,
+				EF869E3C272D6EE200203052 /* Models */,
+				EF869E3E272D6F1F00203052 /* Supports */,
 			);
 			path = loginAPP;
+			sourceTree = "<group>";
+		};
+		EF869E3B272D6EC100203052 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF865C0227285D9200FDE22B /* Main.storyboard */,
+				EF865C0727285D9300FDE22B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF869E3C272D6EE200203052 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF869E43272D71CF00203052 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF869E3D272D6EFB00203052 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF865C0027285D9200FDE22B /* ViewController.swift */,
+				EF865C102728789F00FDE22B /* WelcomeViewController.swift */,
+				EF869E3F272D713600203052 /* PersonViewController.swift */,
+				EF869E41272D715A00203052 /* AboutMeViewController.swift */,
+				EF869E45272D7E7300203052 /* NextViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF869E3E272D6F1F00203052 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				EF865C0527285D9300FDE22B /* Assets.xcassets */,
+				EF865C0A27285D9300FDE22B /* Info.plist */,
+				EF865BFC27285D9200FDE22B /* AppDelegate.swift */,
+				EF865BFE27285D9200FDE22B /* SceneDelegate.swift */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF869E40272D713600203052 /* PersonViewController.swift in Sources */,
+				EF869E46272D7E7300203052 /* NextViewController.swift in Sources */,
 				EF865C0127285D9200FDE22B /* ViewController.swift in Sources */,
 				EF865C112728789F00FDE22B /* WelcomeViewController.swift in Sources */,
 				EF865BFD27285D9200FDE22B /* AppDelegate.swift in Sources */,
+				EF869E42272D715A00203052 /* AboutMeViewController.swift in Sources */,
 				EF865BFF27285D9200FDE22B /* SceneDelegate.swift in Sources */,
+				EF869E44272D71CF00203052 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = loginAPP/Info.plist;
+				INFOPLIST_FILE = loginAPP/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = loginAPP/Info.plist;
+				INFOPLIST_FILE = loginAPP/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
