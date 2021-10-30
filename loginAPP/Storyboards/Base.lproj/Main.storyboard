@@ -153,14 +153,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-Bi-rac">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-Bi-rac">
                                 <rect key="frame" x="16" y="150" width="382" height="30"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoOne" translatesAutoresizingMaskIntoConstraints="NO" id="gBx-WN-wEu">
-                                <rect key="frame" x="0.0" y="200" width="414" height="647"/>
+                                <rect key="frame" x="0.0" y="200" width="414" height="613"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KDa-pj-aWW"/>
@@ -169,7 +169,7 @@
                             <constraint firstItem="gBx-WN-wEu" firstAttribute="top" secondItem="0gq-Bi-rac" secondAttribute="bottom" constant="20" id="BgH-Ra-bCX"/>
                             <constraint firstItem="gBx-WN-wEu" firstAttribute="leading" secondItem="KDa-pj-aWW" secondAttribute="leading" id="JkE-fn-bgg"/>
                             <constraint firstItem="0gq-Bi-rac" firstAttribute="top" secondItem="KDa-pj-aWW" secondAttribute="top" constant="10" id="P8W-sd-pop"/>
-                            <constraint firstAttribute="bottom" secondItem="gBx-WN-wEu" secondAttribute="bottom" constant="49" id="T5A-Jj-QsE"/>
+                            <constraint firstAttribute="bottom" secondItem="gBx-WN-wEu" secondAttribute="bottom" constant="83" id="T5A-Jj-QsE"/>
                             <constraint firstItem="KDa-pj-aWW" firstAttribute="trailing" secondItem="0gq-Bi-rac" secondAttribute="trailing" constant="16" id="aEJ-Gl-SEQ"/>
                             <constraint firstItem="0gq-Bi-rac" firstAttribute="leading" secondItem="KDa-pj-aWW" secondAttribute="leading" constant="16" id="m0a-2T-tIQ"/>
                             <constraint firstItem="gBx-WN-wEu" firstAttribute="centerX" secondItem="vBP-bm-126" secondAttribute="centerX" id="o4m-H2-wJM"/>
@@ -189,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKY-DT-L11" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2308.125" y="66.25"/>
+            <point key="canvasLocation" x="2307.2463768115945" y="65.625"/>
         </scene>
         <!--About Me View Controller-->
         <scene sceneID="EU5-JS-61r">
@@ -199,9 +199,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhd-SY-CWP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhd-SY-CWP">
                                 <rect key="frame" x="16" y="150" width="382" height="30"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -244,9 +244,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5G-uZ-oDa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5G-uZ-oDa">
                                 <rect key="frame" x="16" y="150" width="382" height="30"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

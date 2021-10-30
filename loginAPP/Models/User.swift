@@ -15,9 +15,9 @@ struct User {
               password: "Password",
               person: Person(name: "Pavel",
                              sureName: "Tsyganov",
-                             aboutMe: "IT'S ME",
-                             hobby: "MY WIFE",
-                            meatingOfLife: "MY FAMILY"))
+                             aboutMe: "it's me",
+                             hobby: "my love",
+                            meatingOfLife: "my family"))
     }
     
 }
